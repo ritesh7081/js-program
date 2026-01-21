@@ -17,6 +17,6 @@ console.log(undefined == 0); // false
 console.log(undefined > 0); // false
 console.log(undefined < 0); // false
 
-//=== strict equality operator
+//=== strict equality operator also checks for type
 console.log(2 === 2); // true
 console.log(2 === "2"); // false
